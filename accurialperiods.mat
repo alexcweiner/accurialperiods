@@ -1,0 +1,13 @@
+presentValue = input("enter the present value");
+
+futureValue = input("enter the future value");
+
+effectiveInterest = input("enter the effective interest");
+
+logFV = log10(futureValue);
+logPV = log10(presentValue);
+logEIplusone = log10(1+effectiveInterest);
+
+accurialPeriods = ((logFV)-(logPV))/(logEIplusone);
+
+disp("The number of accurial periods is:"),disp(accurialPeriods)
