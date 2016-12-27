@@ -1,3 +1,4 @@
+#Code for calculating accurialperiods in Octave
 presentValue = input("enter the present value");
 
 futureValue = input("enter the future value");
